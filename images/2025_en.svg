@@ -1,0 +1,67 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky25" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bae6fd"/>
+      <stop offset="100%" stop-color="#f0fdf4"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="380" fill="url(#sky25)" rx="12"/>
+  <polygon points="410,270 505,125 600,270" fill="#60a5fa" opacity="0.45"/>
+  <polygon points="478,166 505,125 532,166 518,160 505,170 492,160" fill="#ffffff" opacity="0.9"/>
+  <path d="M0 265 Q180 240 360 265 T640 255 L640 380 L0 380 Z" fill="#4ade80" opacity="0.55"/>
+  <path d="M0 295 Q240 275 460 300 T640 290 L640 380 L0 380 Z" fill="#22c55e" opacity="0.75"/>
+  <rect x="24" y="14" width="592" height="40" rx="8" fill="#0f172a"/>
+  <text x="320" y="39" font-family="sans-serif" font-size="14" font-weight="bold" fill="#fde047" text-anchor="middle">ZEBRA-STRIPED WAGYU COWS · ANTI-FLY OPTICAL ARMOR (2025 BIOLOGY PRIZE)</text>
+  <g transform="translate(175, 118)">
+    <rect x="48" y="118" width="16" height="58" rx="5" fill="#1e293b"/>
+    <rect x="78" y="118" width="16" height="54" rx="5" fill="#334155"/>
+    <rect x="172" y="118" width="16" height="54" rx="5" fill="#334155"/>
+    <rect x="200" y="118" width="16" height="58" rx="5" fill="#1e293b"/>
+    <rect x="30" y="35" width="205" height="90" rx="38" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <g fill="#f8fafc">
+      <path d="M62 36 L76 36 L70 124 L56 124 Z"/>
+      <path d="M92 36 L106 36 L100 124 L86 124 Z"/>
+      <path d="M122 36 L136 36 L130 124 L116 124 Z"/>
+      <path d="M152 36 L166 36 L160 124 L146 124 Z"/>
+      <path d="M182 36 L196 36 L190 124 L176 124 Z"/>
+    </g>
+    <g transform="translate(-28, 8)">
+      <rect x="8" y="12" width="60" height="50" rx="18" fill="#1e293b" stroke="#0f172a" stroke-width="2.5"/>
+      <ellipse cx="38" cy="52" rx="24" ry="13" fill="#fda4af"/>
+      <rect x="14" y="22" width="20" height="12" rx="3" fill="#38bdf8" stroke="#ffffff" stroke-width="1.5"/>
+      <rect x="40" y="22" width="20" height="12" rx="3" fill="#38bdf8" stroke="#ffffff" stroke-width="1.5"/>
+      <line x1="34" y1="26" x2="40" y2="26" stroke="#ffffff" stroke-width="2"/>
+      <path d="M18 12 Q8 -4 24 4 M56 12 Q66 -4 50 4" fill="#fef08a" stroke="#ca8a04" stroke-width="2"/>
+    </g>
+    <path d="M234 56 Q268 75 262 115" fill="none" stroke="#1e293b" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(430, 72)">
+    <g transform="translate(0, 0)">
+      <ellipse cx="26" cy="22" rx="12" ry="8" fill="#475569"/>
+      <ellipse cx="22" cy="12" rx="8" ry="5" fill="#e0f2fe" opacity="0.85" transform="rotate(-25 22 12)"/>
+      <ellipse cx="30" cy="12" rx="8" ry="5" fill="#e0f2fe" opacity="0.85" transform="rotate(25 30 12)"/>
+      <text x="15" y="25" font-family="sans-serif" font-size="10" font-weight="bold" fill="#fde047">@</text>
+      <path d="M4 32 Q-18 18 -8 4" fill="none" stroke="#ef4444" stroke-width="2" stroke-dasharray="3 2"/>
+    </g>
+    <g transform="translate(55, 28)">
+      <ellipse cx="26" cy="22" rx="12" ry="8" fill="#475569"/>
+      <ellipse cx="22" cy="12" rx="8" ry="5" fill="#e0f2fe" opacity="0.85" transform="rotate(-25 22 12)"/>
+      <text x="15" y="25" font-family="sans-serif" font-size="10" font-weight="bold" fill="#fde047">@</text>
+    </g>
+    <rect x="6" y="68" width="175" height="92" rx="10" fill="#ffffff" opacity="0.94" stroke="#16a34a" stroke-width="2"/>
+    <text x="93" y="90" font-family="sans-serif" font-size="11" font-weight="bold" fill="#15803d" text-anchor="middle">BITING FLY LANDING COUNT</text>
+    <text x="93" y="112" font-family="sans-serif" font-size="10" fill="#dc2626" text-anchor="middle">Unpainted Black Cow: 128 / 30m</text>
+    <text x="93" y="132" font-family="sans-serif" font-size="10" fill="#16a34a" font-weight="bold" text-anchor="middle">Zebra-Painted Cow: 55 (-57%!)</text>
+    <text x="93" y="150" font-family="sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Fly-Repelling Stomps Down 25%</text>
+  </g>
+  <g transform="translate(24, 90)">
+    <rect x="0" y="0" width="140" height="125" rx="10" fill="#1e293b" opacity="0.92" stroke="#fde047" stroke-width="2"/>
+    <text x="70" y="24" font-family="sans-serif" font-size="11" font-weight="bold" fill="#fde047" text-anchor="middle">OPTICAL SHIELD</text>
+    <text x="70" y="48" font-family="sans-serif" font-size="10" fill="#f8fafc" text-anchor="middle">Stripes disrupt insect</text>
+    <text x="70" y="66" font-family="sans-serif" font-size="10" fill="#38bdf8" text-anchor="middle">Motion Parallax Vision</text>
+    <text x="70" y="86" font-family="sans-serif" font-size="10" fill="#4ade80" text-anchor="middle">Pesticide-Free Livestock</text>
+    <text x="70" y="108" font-family="monospace" font-size="10" fill="#94a3b8" text-anchor="middle">Kojima et al. (2019)</text>
+  </g>
+  <rect x="115" y="338" width="410" height="30" rx="15" fill="#0f172a"/>
+  <text x="320" y="358" font-family="sans-serif" font-size="12" font-weight="bold" fill="#4ade80" text-anchor="middle">IG NOBEL 2025 · WAGYU CATTLE IN ZEBRA STRIPES</text>
+</svg>

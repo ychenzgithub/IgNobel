@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg92" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14532d"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#3b0764"/>
+    </linearGradient>
+    <radialGradient id="stinkGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a3e635" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#65a30d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="380" fill="url(#bg92)"/>
+
+  <rect x="18" y="14" width="355" height="44" rx="8" fill="#0f172a" stroke="#a3e635" stroke-width="2"/>
+  <text x="30" y="33" fill="#a3e635" font-family="sans-serif" font-size="13" font-weight="bold">1992 Medicine · Shiseido Research Center</text>
+  <text x="30" y="50" fill="#e2e8f0" font-family="sans-serif" font-size="11">"Foot Malodour": If You Think Your Feet Stink, They Do!</text>
+
+  <rect x="340" y="68" width="280" height="195" rx="8" fill="#064e3b" stroke="#b45309" stroke-width="6"/>
+  <text x="358" y="98" fill="#fef08a" font-family="sans-serif" font-size="14" font-weight="bold">SHISEIDO LAB · FINAL THEOREM</text>
+  <line x1="358" y1="108" x2="600" y2="108" stroke="#34d399" stroke-width="1.5"/>
+  <rect x="358" y="120" width="244" height="50" rx="6" fill="#047857"/>
+  <text x="368" y="141" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">Theorem 1: Self-Doubters</text>
+  <text x="368" y="160" fill="#a3e635" font-family="sans-serif" font-size="12.5" font-weight="bold">Think Feet Stink = REALLY STINK ✓</text>
+  <rect x="358" y="182" width="244" height="50" rx="6" fill="#047857"/>
+  <text x="368" y="203" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">Theorem 2: Confident Souls</text>
+  <text x="368" y="222" fill="#67e8f9" font-family="sans-serif" font-size="12.5" font-weight="bold">Think Odor-Free = ODOR-FREE ✓</text>
+  <text x="358" y="252" fill="#d1fae5" font-family="monospace" font-size="9.5">British Journal of Dermatology (1990)</text>
+
+  <circle cx="155" cy="200" r="115" fill="url(#stinkGlow)"/>
+  <rect x="75" y="285" width="160" height="35" rx="6" fill="#475569" stroke="#94a3b8" stroke-width="2"/>
+  <text x="96" y="308" fill="#f8fafc" font-family="sans-serif" font-size="12" font-weight="bold">Specimen Foot #1</text>
+  <path d="M115 125 L165 125 L170 230 L225 245 Q245 252 240 272 Q235 285 210 285 L105 285 Q92 285 95 260 Z" fill="#fef08a" stroke="#ca8a04" stroke-width="3"/>
+  <path d="M115 145 L166 145" stroke="#ef4444" stroke-width="8"/>
+  <path d="M116 162 L167 162" stroke="#3b82f6" stroke-width="8"/>
+  <path d="M105 190 Q85 160 105 130 Q125 100 100 75" fill="none" stroke="#a3e635" stroke-width="4" stroke-linecap="round"/>
+  <path d="M190 215 Q215 180 190 150 Q170 120 198 90" fill="none" stroke="#84cc16" stroke-width="4" stroke-linecap="round"/>
+  <path d="M225 230 Q255 200 235 165" fill="none" stroke="#bef264" stroke-width="3.5" stroke-linecap="round"/>
+  <g fill="#84cc16" opacity="0.75">
+    <circle cx="85" cy="110" r="22"/>
+    <circle cx="110" cy="95" r="26"/>
+    <circle cx="135" cy="108" r="20"/>
+    <circle cx="205" cy="115" r="24"/>
+    <circle cx="228" cy="130" r="18"/>
+  </g>
+  <text x="68" y="105" fill="#1a2e05" font-family="sans-serif" font-size="10.5" font-weight="bold">Isovaleric Acid</text>
+  <text x="184" y="122" fill="#1a2e05" font-family="sans-serif" font-size="10.5" font-weight="bold">Toxic Fumes!</text>
+
+  <path d="M248 250 L328 250 L338 330 L238 330 Z" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="288" cy="210" r="26" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+  <circle cx="277" cy="205" r="9" fill="#38bdf8" stroke="#1e293b" stroke-width="3"/>
+  <circle cx="299" cy="205" r="9" fill="#38bdf8" stroke="#1e293b" stroke-width="3"/>
+  <path d="M275 218 L301 218 L296 242 L280 242 Z" fill="#334155" stroke="#0f172a" stroke-width="2"/>
+  <ellipse cx="288" cy="244" rx="12" ry="6" fill="#1e293b" stroke="#a3e635" stroke-width="2"/>
+  <rect x="305" y="262" width="44" height="54" rx="4" fill="#f59e0b" stroke="#78350f" stroke-width="2"/>
+  <rect x="311" y="270" width="32" height="40" fill="#ffffff"/>
+  <text x="313" y="284" fill="#0f172a" font-family="sans-serif" font-size="7.5" font-weight="bold">Odor Rank:</text>
+  <text x="313" y="298" fill="#dc2626" font-family="sans-serif" font-size="8" font-weight="bold">BIOHAZARD</text>
+
+  <rect x="85" y="335" width="470" height="32" rx="16" fill="#65a30d"/>
+  <text x="320" y="356" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="12.5" font-weight="bold">Gas chromatography confirms: Your nose knows the truth about your own toes!</text>
+</svg>

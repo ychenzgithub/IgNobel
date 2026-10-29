@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gallery95" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#31102f"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="380" fill="url(#gallery95)"/>
+  <rect x="0" y="295" width="640" height="85" fill="#451a03"/>
+  <line x1="0" y1="295" x2="640" y2="295" stroke="#fbbf24" stroke-width="4"/>
+
+  <rect x="18" y="12" width="365" height="44" rx="8" fill="#0f172a" stroke="#c084fc" stroke-width="2"/>
+  <text x="30" y="31" fill="#e9d5ff" font-family="sans-serif" font-size="13" font-weight="bold">1995 心理学奖 · 庆应义塾大学 渡边茂团队</text>
+  <text x="30" y="48" fill="#ffffff" font-family="sans-serif" font-size="11">《鸽子对莫奈与毕加索画作的辨别》：艺术鉴赏大师竟是和平鸽</text>
+
+  <rect x="55" y="72" width="185" height="135" rx="4" fill="#0284c7" stroke="#f59e0b" stroke-width="8"/>
+  <path d="M65 135 Q147 95 230 135" fill="none" stroke="#86efac" stroke-width="6"/>
+  <ellipse cx="105" cy="168" rx="22" ry="9" fill="#4ade80"/>
+  <circle cx="108" cy="164" r="6" fill="#fbcfe8"/>
+  <ellipse cx="178" cy="180" rx="26" ry="10" fill="#4ade80"/>
+  <circle cx="175" cy="176" r="7" fill="#fef08a"/>
+  <ellipse cx="142" cy="152" rx="18" ry="7" fill="#86efac"/>
+  <rect x="92" y="216" width="110" height="24" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="147" y="232" text-anchor="middle" fill="#bae6fd" font-family="sans-serif" font-size="12" font-weight="bold">莫奈 (Monet) 印象派</text>
+
+  <rect x="395" y="72" width="185" height="135" rx="4" fill="#fef08a" stroke="#f59e0b" stroke-width="8"/>
+  <polygon points="435,88 495,85 485,185 425,170" fill="#f43f5e" stroke="#0f172a" stroke-width="2.5"/>
+  <polygon points="495,85 552,102 535,190 485,185" fill="#3b82f6" stroke="#0f172a" stroke-width="2.5"/>
+  <circle cx="460" cy="120" r="10" fill="#ffffff" stroke="#0f172a" stroke-width="2.5"/>
+  <circle cx="460" cy="120" r="4" fill="#0f172a"/>
+  <rect x="502" y="132" width="22" height="14" fill="#ffffff" stroke="#0f172a" stroke-width="2.5"/>
+  <circle cx="513" cy="139" r="4" fill="#0f172a"/>
+  <polygon points="485,115 470,152 498,152" fill="#eab308" stroke="#0f172a" stroke-width="2"/>
+  <rect x="432" y="216" width="115" height="24" rx="4" fill="#1e293b" stroke="#f43f5e" stroke-width="1.5"/>
+  <text x="489" y="232" text-anchor="middle" fill="#fda4af" font-family="sans-serif" font-size="12" font-weight="bold">毕加索 (Picasso) 立体派</text>
+
+  <rect x="260" y="255" width="120" height="65" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="290" cy="275" r="11" fill="#38bdf8" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="350" cy="275" r="11" fill="#f43f5e" stroke="#ffffff" stroke-width="2"/>
+  <text x="320" y="308" text-anchor="middle" fill="#fef08a" font-family="sans-serif" font-size="10" font-weight="bold">啄键投喂麻籽器</text>
+
+  <path d="M285 215 Q275 170 305 162 Q330 158 335 182 Q365 195 358 232 Q335 250 295 245 Z" fill="#94a3b8" stroke="#475569" stroke-width="2.5"/>
+  <path d="M292 185 Q312 192 330 184" fill="none" stroke="#10b981" stroke-width="6" stroke-linecap="round"/>
+  <path d="M294 191 Q312 198 328 190" fill="none" stroke="#a855f7" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="328" cy="216" rx="22" ry="13" transform="rotate(15 328 216)" fill="#64748b" stroke="#334155" stroke-width="2"/>
+  <ellipse cx="308" cy="156" rx="24" ry="9" transform="rotate(-12 308 156)" fill="#dc2626" stroke="#7f1d1d" stroke-width="2"/>
+  <line x1="306" y1="146" x2="309" y2="140" stroke="#7f1d1d" stroke-width="3"/>
+  <circle cx="302" cy="170" r="7" fill="#fef08a" stroke="#eab308" stroke-width="2"/>
+  <circle cx="302" cy="170" r="2.5" fill="#0f172a"/>
+  <polygon points="286,172 268,177 286,182" fill="#f59e0b"/>
+  <line x1="305" y1="245" x2="300" y2="260" stroke="#f97316" stroke-width="3"/>
+  <line x1="325" y1="245" x2="335" y2="262" stroke="#f97316" stroke-width="3"/>
+
+  <rect x="218" y="66" width="165" height="64" rx="14" fill="#ffffff" stroke="#a855f7" stroke-width="2.5"/>
+  <polygon points="300,130 306,145 316,130" fill="#ffffff" stroke="#a855f7" stroke-width="2"/>
+  <text x="230" y="90" fill="#6b21a8" font-family="sans-serif" font-size="12" font-weight="bold">“咕咕！左边光影太柔，</text>
+  <text x="230" y="112" fill="#0f172a" font-family="sans-serif" font-size="12" font-weight="bold">右边几何凌厉，选毕加索！”</text>
+
+  <rect x="90" y="336" width="460" height="32" rx="16" fill="#7e22ce"/>
+  <text x="320" y="357" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold">哪怕把塞尚与马蒂斯的画端上来，受训鸽子也能一眼分清印象派与立体派！</text>
+</svg>

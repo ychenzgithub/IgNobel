@@ -1,0 +1,95 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg00" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#022c22"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="mag00" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <radialGradient id="glow00" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#06b6d4" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="380" fill="url(#bg00)" rx="16"/>
+  <!-- Giant Solenoid Electromagnet Coils (Center) -->
+  <rect x="195" y="42" width="230" height="44" rx="8" fill="url(#mag00)" stroke="#38bdf8" stroke-width="2"/>
+  <rect x="195" y="268" width="230" height="52" rx="8" fill="url(#mag00)" stroke="#38bdf8" stroke-width="2"/>
+  <!-- Copper windings on coils -->
+  <g fill="#d97706" opacity="0.85">
+    <rect x="210" y="48" width="45" height="32" rx="3"/>
+    <rect x="365" y="48" width="45" height="32" rx="3"/>
+    <rect x="210" y="274" width="45" height="40" rx="3"/>
+    <rect x="365" y="274" width="45" height="40" rx="3"/>
+  </g>
+  <text x="310" y="69" font-family="monospace" font-size="13" font-weight="bold" fill="#38bdf8" text-anchor="middle">B = 16 TESLA BITTER MAGNET</text>
+  <text x="310" y="299" font-family="monospace" font-size="12" font-weight="bold" fill="#7dd3fc" text-anchor="middle">Diamagnetic Lift F ∝ B·∇B = m·g</text>
+
+  <!-- Glowing Magnetic Field Chamber -->
+  <circle cx="310" cy="175" r="105" fill="url(#glow00)"/>
+  <g stroke="#22d3ee" stroke-width="2" fill="none" stroke-dasharray="6,5" opacity="0.75">
+    <path d="M250 86 C220 140, 220 210, 250 268"/>
+    <path d="M280 86 C260 140, 260 210, 280 268"/>
+    <path d="M340 86 C360 140, 360 210, 340 268"/>
+    <path d="M370 86 C400 140, 400 210, 370 268"/>
+  </g>
+
+  <!-- Levitating Cute Green Frog in Mid-Air! -->
+  <g transform="translate(310, 172) rotate(-6)">
+    <!-- Shadow/aura ring below frog -->
+    <ellipse cx="0" cy="48" rx="45" ry="9" fill="#22d3ee" opacity="0.4"/>
+    <!-- Back legs splayed out in zero-G -->
+    <path d="M-28 18 Q-62 32 -52 46 Q-38 40 -22 25" fill="#22c55e" stroke="#14532d" stroke-width="2.5"/>
+    <path d="M28 18 Q62 32 52 46 Q38 40 22 25" fill="#22c55e" stroke="#14532d" stroke-width="2.5"/>
+    <!-- Front arms floating up -->
+    <path d="M-32 -5 Q-64 -20 -58 -34 Q-45 -22 -26 2" fill="#22c55e" stroke="#14532d" stroke-width="2.5"/>
+    <path d="M32 -5 Q64 -20 58 -34 Q45 -22 26 2" fill="#22c55e" stroke="#14532d" stroke-width="2.5"/>
+    <!-- Frog Body & Belly -->
+    <ellipse cx="0" cy="6" rx="38" ry="28" fill="#22c55e" stroke="#14532d" stroke-width="2.5"/>
+    <ellipse cx="0" cy="10" rx="26" ry="18" fill="#bbf7d0"/>
+    <!-- Bulging Frog Eyes -->
+    <circle cx="-18" cy="-22" r="13" fill="#22c55e" stroke="#14532d" stroke-width="2.5"/>
+    <circle cx="18" cy="-22" r="13" fill="#22c55e" stroke="#14532d" stroke-width="2.5"/>
+    <circle cx="-18" cy="-22" r="8" fill="#ffffff"/>
+    <circle cx="18" cy="-22" r="8" fill="#ffffff"/>
+    <circle cx="-18" cy="-22" r="4" fill="#0f172a"/>
+    <circle cx="18" cy="-22" r="4" fill="#0f172a"/>
+    <!-- Happy Smile -->
+    <path d="M-18 -4 Q0 8 18 -4" fill="none" stroke="#14532d" stroke-width="3" stroke-linecap="round"/>
+    <!-- Rosy Cheeks -->
+    <circle cx="-23" cy="-5" r="4.5" fill="#f43f5e" opacity="0.6"/>
+    <circle cx="23" cy="-5" r="4.5" fill="#f43f5e" opacity="0.6"/>
+  </g>
+
+  <!-- Left Card: Dunning-Kruger Effect Mini Cameo -->
+  <rect x="20" y="55" width="152" height="135" rx="10" fill="#1e293b" stroke="#a855f7" stroke-width="2"/>
+  <text x="96" y="78" font-family="sans-serif" font-size="12" font-weight="bold" fill="#e9d5ff" text-anchor="middle">Also 2000: Dunning-Kruger</text>
+  <polyline points="36,158 36,92" stroke="#94a3b8" stroke-width="1.5" fill="none"/>
+  <polyline points="36,158 156,158" stroke="#94a3b8" stroke-width="1.5" fill="none"/>
+  <path d="M40 152 L62 96 Q82 152 108 145 Q135 135 152 108" stroke="#c084fc" stroke-width="3" fill="none"/>
+  <circle cx="62" cy="96" r="4" fill="#f43f5e"/>
+  <text x="68" y="92" font-family="sans-serif" font-size="9.5" fill="#fda4af">Mt. Stupid</text>
+  <text x="96" y="176" font-family="sans-serif" font-size="10.5" fill="#cbd5e1" text-anchor="middle">Unskilled &amp; Unaware!</text>
+
+  <!-- Right Card: Twin Crown Legend (Ig Nobel 2000 + Nobel 2010) -->
+  <rect x="448" y="55" width="172" height="165" rx="10" fill="#1e293b" stroke="#facc15" stroke-width="2.5"/>
+  <text x="534" y="80" font-family="sans-serif" font-size="13" font-weight="bold" fill="#fde047" text-anchor="middle">Only Dual Laureate in History</text>
+  <circle cx="496" cy="122" r="24" fill="#a855f7" stroke="#fde047" stroke-width="2"/>
+  <text x="496" y="119" font-family="sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">2000</text>
+  <text x="496" y="133" font-family="sans-serif" font-size="9" fill="#fde047" text-anchor="middle">Ig Nobel</text>
+  <circle cx="572" cy="122" r="24" fill="#eab308" stroke="#fef08a" stroke-width="2"/>
+  <text x="572" y="119" font-family="sans-serif" font-size="10" font-weight="bold" fill="#0f172a" text-anchor="middle">2010</text>
+  <text x="572" y="133" font-family="sans-serif" font-size="9" fill="#0f172a" text-anchor="middle">Nobel Prize</text>
+  <text x="534" y="172" font-family="sans-serif" font-size="11.5" font-weight="bold" fill="#f8fafc" text-anchor="middle">Sir Andre Geim</text>
+  <text x="534" y="192" font-family="sans-serif" font-size="10.5" fill="#94a3b8" text-anchor="middle">Levitating Frogs &amp; Graphene</text>
+  <text x="534" y="209" font-family="sans-serif" font-size="10.5" fill="#38bdf8" text-anchor="middle">Humor &amp; Genius Hand in Hand!</text>
+
+  <!-- Bottom Banner -->
+  <rect x="24" y="336" width="592" height="32" rx="8" fill="#22d3ee"/>
+  <text x="320" y="357" font-family="sans-serif" font-size="13.5" font-weight="bold" fill="#0f172a" text-anchor="middle">2000 Physics &amp; Psychology · The Levitating Frog (Dual Nobel Legend) &amp; Dunning-Kruger Effect</text>
+</svg>

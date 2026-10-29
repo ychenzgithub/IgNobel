@@ -1,0 +1,117 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg97" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="55%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="tornado97" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a5b4fc" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#312e81" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="card97" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="380" fill="url(#bg97)" rx="16"/>
+  <!-- Storm clouds -->
+  <g fill="#4338ca" opacity="0.55">
+    <circle cx="90" cy="48" r="42"/>
+    <circle cx="150" cy="40" r="50"/>
+    <circle cx="220" cy="50" r="38"/>
+    <circle cx="48" cy="58" r="30"/>
+  </g>
+  <!-- Ground -->
+  <path d="M0 330 Q180 315 360 332 T640 325 L640 380 L0 380 Z" fill="#1e293b"/>
+  <path d="M0 340 Q200 328 400 342 T640 338 L640 380 L0 380 Z" fill="#0f172a"/>
+  <!-- Tornado Funnel -->
+  <path d="M55 60 Q145 75 215 62 Q175 140 165 190 Q155 250 132 332 L105 332 Q115 250 98 185 Q75 125 55 60 Z" fill="url(#tornado97)"/>
+  <ellipse cx="135" cy="64" rx="80" ry="16" fill="#818cf8" opacity="0.7"/>
+  <!-- Swirling wind lines -->
+  <g stroke="#e0e7ff" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.8">
+    <path d="M62 95 Q138 115 196 90"/>
+    <path d="M78 135 Q138 155 180 130"/>
+    <path d="M90 175 Q140 192 168 172"/>
+    <path d="M102 220 Q135 234 156 218"/>
+    <path d="M108 268 Q132 278 145 266"/>
+    <path d="M195 140 C245 120, 290 130, 330 145" stroke-dasharray="6,6"/>
+    <path d="M180 195 C235 180, 285 195, 340 210" stroke-dasharray="6,6"/>
+  </g>
+  <!-- Lightning bolt -->
+  <polygon points="185,55 168,92 184,92 162,130 202,84 184,84" fill="#facc15"/>
+  <!-- Flying Plucking Chicken in Center -->
+  <g transform="translate(285, 165) rotate(-14)">
+    <!-- Naked pink chicken body -->
+    <ellipse cx="0" cy="12" rx="38" ry="26" fill="#fda4af" stroke="#be123c" stroke-width="2.5"/>
+    <!-- Goosebumps dots on plucked skin -->
+    <circle cx="-12" cy="6" r="2" fill="#e11d48"/>
+    <circle cx="0" cy="2" r="2" fill="#e11d48"/>
+    <circle cx="14" cy="9" r="2" fill="#e11d48"/>
+    <circle cx="-6" cy="18" r="2" fill="#e11d48"/>
+    <circle cx="10" cy="20" r="2" fill="#e11d48"/>
+    <circle cx="-22" cy="14" r="2" fill="#e11d48"/>
+    <!-- Drumstick legs -->
+    <path d="M-18 35 L-26 56 M-26 56 L-34 60 M-26 56 L-24 63 M-26 56 L-17 59" stroke="#f59e0b" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M12 36 L18 58 M18 58 L11 64 M18 58 L20 65 M18 58 L27 61" stroke="#f59e0b" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Tiny plucked wing -->
+    <path d="M-8 6 Q-22 -14 -4 -12 Q10 -10 6 8" fill="#fecdd3" stroke="#be123c" stroke-width="2"/>
+    <!-- Neck and Head -->
+    <path d="M28 -2 Q42 -22 36 -36" stroke="#fda4af" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="38" cy="-40" r="15" fill="#fda4af" stroke="#be123c" stroke-width="2.5"/>
+    <!-- Red comb -->
+    <path d="M30 -52 Q34 -65 40 -54 Q46 -65 49 -51" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+    <!-- Shocked Eye -->
+    <circle cx="42" cy="-42" r="6" fill="#ffffff" stroke="#1e293b" stroke-width="1.5"/>
+    <circle cx="44" cy="-42" r="2.5" fill="#0f172a"/>
+    <!-- Open Screaming Beak -->
+    <polygon points="52,-43 68,-48 53,-36" fill="#f59e0b" stroke="#b45309" stroke-width="1.5"/>
+    <polygon points="52,-36 66,-33 51,-30" fill="#fbbf24" stroke="#b45309" stroke-width="1.5"/>
+  </g>
+  <!-- Flying White Feathers -->
+  <g fill="#ffffff" stroke="#94a3b8" stroke-width="1.2">
+    <path d="M210 112 Q225 102 238 114 Q224 122 210 112 Z" transform="rotate(-25 224 112)"/>
+    <path d="M235 148 Q250 138 263 150 Q249 158 235 148 Z" transform="rotate(15 249 148)"/>
+    <path d="M205 215 Q220 205 233 217 Q219 225 205 215 Z" transform="rotate(-40 219 215)"/>
+    <path d="M250 235 Q265 225 278 237 Q264 245 250 235 Z" transform="rotate(30 264 235)"/>
+    <path d="M348 115 Q363 105 376 117 Q362 125 348 115 Z" transform="rotate(12 362 115)"/>
+    <path d="M362 212 Q377 202 390 214 Q376 222 362 212 Z" transform="rotate(-18 376 212)"/>
+  </g>
+  <!-- Speech Bubble from Chicken -->
+  <rect x="235" y="54" width="155" height="36" rx="10" fill="#ffffff" stroke="#ef4444" stroke-width="2"/>
+  <polygon points="315,90 326,90 322,104" fill="#ffffff" stroke="#ef4444" stroke-width="2"/>
+  <text x="312" y="77" font-family="sans-serif" font-size="13" font-weight="bold" fill="#dc2626" text-anchor="middle">CLUCK! MY FEATHERS!</text>
+
+  <!-- Scientist Bernard Vonnegut & Lab Board on Right -->
+  <rect x="425" y="58" width="190" height="195" rx="12" fill="url(#card97)" stroke="#f59e0b" stroke-width="3"/>
+  <text x="520" y="84" font-family="sans-serif" font-size="13" font-weight="bold" fill="#78350f" text-anchor="middle">Vonnegut Wind Calibration</text>
+  <line x1="442" y1="94" x2="598" y2="94" stroke="#d97706" stroke-width="1.5"/>
+  <!-- Mini Chart -->
+  <polyline points="455,165 455,110" stroke="#78350f" stroke-width="2" fill="none"/>
+  <polyline points="455,165 585,165" stroke="#78350f" stroke-width="2" fill="none"/>
+  <path d="M460 160 Q505 152 535 128 T580 112" stroke="#ef4444" stroke-width="3" fill="none"/>
+  <circle cx="535" cy="128" r="4" fill="#dc2626"/>
+  <text x="520" y="182" font-family="monospace" font-size="11" fill="#92400e" text-anchor="middle">Pluck Rate ∝ ½ρv² Pressure</text>
+  <rect x="442" y="194" width="156" height="44" rx="6" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="520" y="212" font-family="sans-serif" font-size="11" font-weight="bold" fill="#b45309" text-anchor="middle">Finding: Not Just Wind Force!</text>
+  <text x="520" y="229" font-family="sans-serif" font-size="10.5" fill="#78350f" text-anchor="middle">Fright Triggers Follicle Release!</text>
+
+  <!-- Scientist Character -->
+  <g transform="translate(465, 290)">
+    <path d="M-28 45 L-20 0 L20 0 L28 45 Z" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
+    <circle cx="0" cy="-18" r="16" fill="#fed7aa" stroke="#9a3412" stroke-width="2"/>
+    <!-- Glasses -->
+    <circle cx="-6" cy="-19" r="5" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <circle cx="6" cy="-19" r="5" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <line x1="-1" y1="-19" x2="1" y2="-19" stroke="#1e293b" stroke-width="2"/>
+    <!-- White hair -->
+    <path d="M-16 -22 Q-20 -35 -6 -34 Q0 -38 10 -34 Q20 -34 16 -22" fill="#e2e8f0"/>
+    <!-- Tie -->
+    <polygon points="0,0 -4,18 0,24 4,18" fill="#ef4444"/>
+  </g>
+
+  <!-- Bottom Banner -->
+  <rect x="24" y="336" width="592" height="32" rx="8" fill="#f59e0b"/>
+  <text x="320" y="357" font-family="sans-serif" font-size="13.5" font-weight="bold" fill="#1e1b4b" text-anchor="middle">1997 Meteorology Prize · Bernard Vonnegut: Chicken Plucking as Tornado Wind Gauge</text>
+</svg>

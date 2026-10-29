@@ -1,0 +1,76 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2019" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="55%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="380" fill="url(#bg2019)"/>
+  <!-- Ground Rock Pedestal -->
+  <polygon points="40,320 95,245 365,245 415,320" fill="#57534e" stroke="#a8a29e" stroke-width="2"/>
+  <!-- Cute Australian Wombat on Left -->
+  <g>
+    <!-- Chubby Body -->
+    <ellipse cx="155" cy="195" rx="68" ry="52" fill="#a16207" stroke="#451a03" stroke-width="2.5"/>
+    <!-- Head -->
+    <ellipse cx="105" cy="175" rx="38" ry="32" fill="#b45309" stroke="#451a03" stroke-width="2.5"/>
+    <!-- Ears -->
+    <ellipse cx="82" cy="146" rx="9" ry="12" fill="#78350f" stroke="#451a03" stroke-width="2"/>
+    <ellipse cx="122" cy="146" rx="9" ry="12" fill="#78350f" stroke="#451a03" stroke-width="2"/>
+    <!-- Big dark nose & happy eyes -->
+    <ellipse cx="78" cy="180" rx="11" ry="8" fill="#1c1917"/>
+    <circle cx="95" cy="168" r="4" fill="#1c1917"/>
+    <circle cx="94" cy="167" r="1.5" fill="#ffffff"/>
+    <path d="M 78 192 Q 90 198 100 190" fill="none" stroke="#1c1917" stroke-width="2.5"/>
+    <!-- Short sturdy legs -->
+    <rect x="102" y="232" width="22" height="22" rx="6" fill="#78350f"/>
+    <rect x="182" y="232" width="22" height="22" rx="6" fill="#78350f"/>
+    <!-- Speech bubble -->
+    <rect x="35" y="75" width="185" height="44" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <polygon points="115,119 110,136 128,119" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <text x="127" y="96" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="12" font-weight="bold">澳洲袋熊 (Wombat)：</text>
+    <text x="127" y="112" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="11">“方的才不会从石头上滚下去！”</text>
+  </g>
+  <!-- Stack of Neat Cube-Shaped Poops (3D Isometric Cubes!) -->
+  <g transform="translate(245, 175)">
+    <!-- Cube 1 (bottom left) -->
+    <rect x="0" y="42" width="28" height="28" fill="#5c2d0c" stroke="#fde047" stroke-width="1.5"/>
+    <polygon points="0,42 10,32 38,32 28,42" fill="#7c3f12" stroke="#fde047" stroke-width="1.5"/>
+    <polygon points="28,42 38,32 38,60 28,70" fill="#3e1e04" stroke="#fde047" stroke-width="1.5"/>
+    <!-- Cube 2 (bottom right) -->
+    <rect x="34" y="42" width="28" height="28" fill="#5c2d0c" stroke="#fde047" stroke-width="1.5"/>
+    <polygon points="34,42 44,32 72,32 62,42" fill="#7c3f12" stroke="#fde047" stroke-width="1.5"/>
+    <polygon points="62,42 72,32 72,60 62,70" fill="#3e1e04" stroke="#fde047" stroke-width="1.5"/>
+    <!-- Cube 3 (middle top) -->
+    <rect x="17" y="10" width="28" height="28" fill="#5c2d0c" stroke="#fde047" stroke-width="1.5"/>
+    <polygon points="17,10 27,0 55,0 45,10" fill="#7c3f12" stroke="#fde047" stroke-width="1.5"/>
+    <polygon points="45,10 55,0 55,28 45,38" fill="#3e1e04" stroke="#fde047" stroke-width="1.5"/>
+    <!-- 90-degree angle marker -->
+    <text x="36" y="-12" text-anchor="middle" fill="#fde047" font-family="sans-serif" font-size="12" font-weight="bold">2cm 标准立方体便便 ×100颗/天</text>
+  </g>
+  <!-- Right Panel: Intestinal Elasticity Cross-Section Diagram -->
+  <rect x="415" y="36" width="202" height="258" rx="12" fill="#1c1917" stroke="#f59e0b" stroke-width="2"/>
+  <text x="516" y="62" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="bold">大肠末端 8% 截面力学图</text>
+  <!-- Intestine ring with 2 thick stiff grooves and 2 thin flexible walls -->
+  <g transform="translate(516, 145)">
+    <circle cx="0" cy="0" r="52" fill="#451a03" stroke="#f87171" stroke-width="6"/>
+    <!-- Stiff regions (top & bottom) -->
+    <path d="M -38 -36 A 52 52 0 0 1 38 -36" fill="none" stroke="#ef4444" stroke-width="14" stroke-linecap="round"/>
+    <path d="M -38 36 A 52 52 0 0 0 38 36" fill="none" stroke="#ef4444" stroke-width="14" stroke-linecap="round"/>
+    <!-- Molded Square Poop inside -->
+    <rect x="-24" y="-24" width="48" height="48" rx="4" fill="#78350f" stroke="#fde047" stroke-width="2.5"/>
+    <text x="0" y="5" text-anchor="middle" fill="#fef08a" font-family="sans-serif" font-size="11" font-weight="bold">方形塑模</text>
+    <!-- Squeeze arrows -->
+    <line x1="0" y1="-68" x2="0" y2="-54" stroke="#4ade80" stroke-width="3"/>
+    <line x1="0" y1="68" x2="0" y2="54" stroke="#4ade80" stroke-width="3"/>
+    <line x1="-68" y1="0" x2="-54" y2="0" stroke="#38bdf8" stroke-width="3"/>
+    <line x1="68" y1="0" x2="54" y2="0" stroke="#38bdf8" stroke-width="3"/>
+  </g>
+  <text x="430" y="232" fill="#f87171" font-family="sans-serif" font-size="11">■ 硬槽区 (Stiff)：塑造平直棱角</text>
+  <text x="430" y="252" fill="#38bdf8" font-family="sans-serif" font-size="11">■ 软壁区 (Flexible)：周期性挤压</text>
+  <text x="430" y="274" fill="#fde047" font-family="sans-serif" font-size="11" font-weight="bold">★ 胡立德 &amp; 杨佩良二次斩获Ig诺奖</text>
+  <!-- Bottom Banner -->
+  <rect x="20" y="322" width="600" height="42" rx="8" fill="#1c1917" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="320" y="348" text-anchor="middle" fill="#fef3c7" font-family="sans-serif" font-size="13" font-weight="bold">2019 物理学奖：袋熊如何用软硬不均的肠道挤压出正方体便便</text>
+</svg>

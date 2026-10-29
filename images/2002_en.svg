@@ -1,0 +1,95 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg02" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="55%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+    <linearGradient id="ele02" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="380" fill="url(#bg02)" rx="16"/>
+  <!-- Math Grid Background -->
+  <g stroke="#38bdf8" stroke-width="0.6" opacity="0.2">
+    <line x1="0" y1="50" x2="640" y2="50"/><line x1="0" y1="100" x2="640" y2="100"/>
+    <line x1="0" y1="150" x2="640" y2="150"/><line x1="0" y1="200" x2="640" y2="200"/>
+    <line x1="0" y1="250" x2="640" y2="250"/><line x1="0" y1="300" x2="640" y2="300"/>
+    <line x1="80" y1="0" x2="80" y2="380"/><line x1="160" y1="0" x2="160" y2="380"/>
+    <line x1="240" y1="0" x2="240" y2="380"/><line x1="320" y1="0" x2="320" y2="380"/>
+    <line x1="400" y1="0" x2="400" y2="380"/><line x1="480" y1="0" x2="480" y2="380"/>
+    <line x1="560" y1="0" x2="560" y2="380"/>
+  </g>
+  <!-- Ground -->
+  <rect x="0" y="302" width="640" height="78" fill="#022c22"/>
+
+  <!-- Giant Indian Elephant with 3D Surface Mesh Grid (Left-Center) -->
+  <g transform="translate(225, 185)">
+    <!-- Four Pillar Legs -->
+    <rect x="-82" y="45" width="34" height="72" rx="8" fill="url(#ele02)" stroke="#1e293b" stroke-width="2.5"/>
+    <rect x="-32" y="48" width="34" height="70" rx="8" fill="url(#ele02)" stroke="#1e293b" stroke-width="2.5"/>
+    <rect x="22" y="48" width="34" height="70" rx="8" fill="url(#ele02)" stroke="#1e293b" stroke-width="2.5"/>
+    <rect x="68" y="45" width="34" height="72" rx="8" fill="url(#ele02)" stroke="#1e293b" stroke-width="2.5"/>
+    <!-- Tail -->
+    <path d="M105 -10 Q128 15 120 45" fill="none" stroke="#64748b" stroke-width="5" stroke-linecap="round"/>
+    <!-- Elephant Body -->
+    <ellipse cx="12" cy="5" rx="98" ry="68" fill="url(#ele02)" stroke="#1e293b" stroke-width="3"/>
+    <!-- 3D Coordinate Mesh Lines over Elephant Body -->
+    <g stroke="#fde047" stroke-width="1.5" fill="none" stroke-dasharray="4,3" opacity="0.85">
+      <path d="M-65 -25 Q12 -52 90 -25"/>
+      <path d="M-82 5 Q12 -18 106 5"/>
+      <path d="M-72 35 Q12 18 96 35"/>
+      <path d="M-40 -52 Q-55 5 -40 62"/>
+      <path d="M12 -62 Q0 5 12 72"/>
+      <path d="M62 -52 Q50 5 62 62"/>
+    </g>
+    <!-- Head & Trunk -->
+    <circle cx="-82" cy="-22" r="46" fill="url(#ele02)" stroke="#1e293b" stroke-width="3"/>
+    <path d="M-118 -10 C-152 10, -148 68, -118 68 C-102 68, -104 48, -114 48" fill="none" stroke="#94a3b8" stroke-width="22" stroke-linecap="round"/>
+    <!-- White Tusk -->
+    <path d="M-105 8 Q-135 18 -128 -2" fill="none" stroke="#fefce8" stroke-width="8" stroke-linecap="round"/>
+    <!-- Big Ear with Triangle Grid -->
+    <ellipse cx="-42" cy="-18" rx="32" ry="42" fill="#64748b" stroke="#1e293b" stroke-width="2.5"/>
+    <polygon points="-42,-52 -66,8 -18,8" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <!-- Happy Eye -->
+    <circle cx="-98" cy="-32" r="6" fill="#ffffff"/>
+    <circle cx="-99" cy="-32" r="3" fill="#0f172a"/>
+    <!-- Yellow Tape Measure around Forefoot (FFC) -->
+    <rect x="-86" y="92" width="42" height="12" rx="3" fill="#facc15" stroke="#b45309" stroke-width="1.5"/>
+    <text x="-65" y="132" font-family="monospace" font-size="11" font-weight="bold" fill="#fde047" text-anchor="middle">Forefoot FFC</text>
+  </g>
+
+  <!-- Vertical Height Dimension Line (H) on Left -->
+  <g stroke="#f43f5e" stroke-width="2.5">
+    <line x1="56" y1="118" x2="56" y2="300"/>
+    <line x1="46" y1="118" x2="66" y2="118"/>
+    <line x1="46" y1="300" x2="66" y2="300"/>
+  </g>
+  <rect x="20" y="192" width="72" height="26" rx="6" fill="#881337" stroke="#fda4af" stroke-width="1.5"/>
+  <text x="56" y="209" font-family="monospace" font-size="11.5" font-weight="bold" fill="#fecdd3" text-anchor="middle">Height H (m)</text>
+
+  <!-- Right Side: Formula Blackboard & Beer Froth Cameo -->
+  <rect x="382" y="45" width="234" height="142" rx="10" fill="#064e3b" stroke="#fbbf24" stroke-width="3"/>
+  <text x="499" y="70" font-family="sans-serif" font-size="13" font-weight="bold" fill="#fde68a" text-anchor="middle">Indian Elephant Surface Formula</text>
+  <rect x="396" y="82" width="206" height="36" rx="6" fill="#022c22" stroke="#34d399" stroke-width="1.5"/>
+  <text x="499" y="105" font-family="monospace" font-size="13" font-weight="bold" fill="#4ade80" text-anchor="middle">S = -8.245 + 6.807H + 7.073FFC</text>
+  <text x="499" y="140" font-family="sans-serif" font-size="11.5" fill="#e2e8f0" text-anchor="middle">Sample: 24 Kerala Elephants</text>
+  <text x="499" y="160" font-family="sans-serif" font-size="11" fill="#fde047" text-anchor="middle">Mean Area ≈ 11.16 sq. meters</text>
+  <text x="499" y="178" font-family="sans-serif" font-size="10.5" fill="#a7f3d0" text-anchor="middle">Use: Accurate Veterinary Dosing!</text>
+
+  <!-- Bottom Right Cameo: Beer Froth Exponential Decay -->
+  <rect x="382" y="202" width="234" height="92" rx="10" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+  <g transform="translate(418, 248)">
+    <rect x="-18" y="-22" width="32" height="44" rx="4" fill="#fbbf24" stroke="#fef08a" stroke-width="2"/>
+    <path d="M14 -14 C26 -14, 26 14, 14 14" fill="none" stroke="#fef08a" stroke-width="4"/>
+    <ellipse cx="-2" cy="-22" rx="17" ry="7" fill="#ffffff"/>
+  </g>
+  <text x="525" y="228" font-family="sans-serif" font-size="12" font-weight="bold" fill="#fde047" text-anchor="middle">Also 2002 Physics: Beer Froth</text>
+  <text x="525" y="252" font-family="monospace" font-size="12" fill="#38bdf8" text-anchor="middle">h(t) = h₀ · exp(-t/τ)</text>
+  <text x="525" y="276" font-family="sans-serif" font-size="10.5" fill="#cbd5e1" text-anchor="middle">Exponential Decay in Munich Pubs</text>
+
+  <!-- Bottom Banner -->
+  <rect x="24" y="336" width="592" height="32" rx="8" fill="#4ade80"/>
+  <text x="320" y="357" font-family="sans-serif" font-size="13.5" font-weight="bold" fill="#022c22" text-anchor="middle">2002 Mathematics &amp; Physics · Indian Elephant Surface Area &amp; Exponential Beer Froth Decay</text>
+</svg>

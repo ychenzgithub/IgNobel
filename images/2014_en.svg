@@ -1,0 +1,72 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2014" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fefce8"/>
+      <stop offset="100%" stop-color="#fef08a"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="380" fill="url(#bg2014)" rx="16"/>
+  <!-- Title Banner -->
+  <rect x="20" y="14" width="600" height="44" rx="10" fill="#854d0e"/>
+  <text x="320" y="42" text-anchor="middle" fill="#fef9c3" font-family="sans-serif" font-size="16" font-weight="bold">2014 Physics Prize: Frictional Coefficient Under a Banana Skin</text>
+
+  <!-- Lab Floor & Force Transducer Plate -->
+  <rect x="20" y="295" width="600" height="65" rx="8" fill="#d6d3d1" stroke="#57534e" stroke-width="3"/>
+  <rect x="165" y="292" width="210" height="22" rx="4" fill="#0284c7" stroke="#0f172a" stroke-width="2.5"/>
+  <text x="270" y="308" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11" font-weight="bold">FORCE TRANSDUCER PLATE</text>
+
+  <!-- Banana Peel on the Force Plate -->
+  <g transform="translate(225, 268)">
+    <path d="M10,22 Q45,2 85,22 Q65,26 45,24 Q25,26 10,22 Z" fill="#facc15" stroke="#a16207" stroke-width="2.5"/>
+    <path d="M25,18 Q45,-2 68,14" fill="none" stroke="#eab308" stroke-width="4" stroke-linecap="round"/>
+    <!-- Squished Follicular Gel Globules -->
+    <circle cx="32" cy="24" r="4" fill="#38bdf8"/>
+    <circle cx="48" cy="25" r="4.5" fill="#38bdf8"/>
+    <circle cx="64" cy="24" r="4" fill="#38bdf8"/>
+    <!-- Slip Velocity Vector -->
+    <line x1="90" y1="15" x2="165" y2="15" stroke="#dc2626" stroke-width="4"/>
+    <polygon points="165,8 182,15 165,22" fill="#dc2626"/>
+    <text x="140" y="4" text-anchor="middle" fill="#dc2626" font-family="monospace" font-size="12" font-weight="bold">μ = 0.07 (Ultra-Slippery!)</text>
+  </g>
+
+  <!-- Cartoon Test Subject Slipping Mid-Air at 45 Degrees -->
+  <g transform="translate(195, 165) rotate(-38)">
+    <!-- Torso -->
+    <rect x="-18" y="-35" width="38" height="62" rx="8" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2.5"/>
+    <!-- Head -->
+    <circle cx="2" cy="-56" r="20" fill="#fed7aa" stroke="#9a3412" stroke-width="2"/>
+    <circle cx="-4" cy="-58" r="4" fill="#000000"/>
+    <circle cx="10" cy="-58" r="4" fill="#000000"/>
+    <ellipse cx="4" cy="-46" rx="6" ry="5" fill="#dc2626"/>
+    <!-- Flailing Arms -->
+    <line x1="-18" y1="-20" x2="-55" y2="-45" stroke="#3b82f6" stroke-width="9" stroke-linecap="round"/>
+    <line x1="20" y1="-20" x2="55" y2="-5" stroke="#3b82f6" stroke-width="9" stroke-linecap="round"/>
+    <!-- Slipping Legs & Shoe -->
+    <line x1="-8" y1="27" x2="-25" y2="75" stroke="#1e293b" stroke-width="10" stroke-linecap="round"/>
+    <line x1="12" y1="27" x2="48" y2="85" stroke="#1e293b" stroke-width="10" stroke-linecap="round"/>
+    <rect x="38" y="82" width="26" height="12" rx="4" fill="#ef4444"/>
+  </g>
+  <text x="155" y="105" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="15" font-weight="bold">&quot;WHOOOOAAA——!!&quot;</text>
+
+  <!-- Magnified Microscope Callout on Right -->
+  <g transform="translate(405, 75)">
+    <rect x="0" y="0" width="205" height="195" rx="12" fill="#ffffff" stroke="#ca8a04" stroke-width="3"/>
+    <text x="102" y="25" text-anchor="middle" fill="#854d0e" font-family="sans-serif" font-size="12" font-weight="bold">🔬 Inner Peel Microscope View</text>
+    <circle cx="102" cy="82" r="42" fill="#fef9c3" stroke="#eab308" stroke-width="2.5"/>
+    <!-- Polysaccharide follicular gel sacs bursting under shoe pressure -->
+    <circle cx="86" cy="76" r="10" fill="#38bdf8" opacity="0.8"/>
+    <circle cx="112" cy="72" r="11" fill="#38bdf8" opacity="0.8"/>
+    <circle cx="100" cy="94" r="9" fill="#38bdf8" opacity="0.8"/>
+    <text x="102" y="142" text-anchor="middle" fill="#0369a1" font-family="sans-serif" font-size="11" font-weight="bold">Polysaccharide Follicular Gel</text>
+    <text x="102" y="162" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="10">Bursts into lubricating sol under step</text>
+    <text x="102" y="182" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="11" font-weight="bold">6x More Slippery Than Bare Floor!</text>
+  </g>
+
+  <!-- Left Comparison Chart -->
+  <rect x="28" y="125" width="145" height="125" rx="10" fill="#ffffff" stroke="#854d0e" stroke-width="2.5"/>
+  <text x="100" y="148" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="11" font-weight="bold">Friction Coefficient μ</text>
+  <text x="36" y="172" fill="#15803d" font-family="sans-serif" font-size="11">▪ Linoleum: μ = 0.412</text>
+  <text x="36" y="195" fill="#d97706" font-family="sans-serif" font-size="11">▪ Apple Peel: μ = 0.105</text>
+  <text x="36" y="218" fill="#dc2626" font-family="sans-serif" font-size="11" font-weight="bold">▪ Banana Peel: μ = 0.066</text>
+  <text x="36" y="238" fill="#64748b" font-family="sans-serif" font-size="9.5">(Like skis gliding on wet ice!)</text>
+</svg>

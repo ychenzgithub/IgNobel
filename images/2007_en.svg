@@ -1,0 +1,47 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2007" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ecfdf5"/>
+      <stop offset="100%" stop-color="#d1fae5"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="380" fill="url(#bg2007)" rx="16"/>
+  <!-- Title Banner -->
+  <rect x="20" y="14" width="600" height="44" rx="10" fill="#065f46"/>
+  <text x="320" y="42" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold">2007 Nutrition Prize: Self-Refilling Bottomless Soup Bowl</text>
+  <!-- Diner at Table -->
+  <g transform="translate(150, 75)">
+    <circle cx="95" cy="45" r="26" fill="#fed7aa" stroke="#9a3412" stroke-width="2.5"/>
+    <circle cx="86" cy="39" r="3.5" fill="#111827"/>
+    <circle cx="104" cy="39" r="3.5" fill="#111827"/>
+    <path d="M85,53 Q95,63 105,53" stroke="#dc2626" stroke-width="3" fill="none"/>
+    <rect x="65" y="72" width="60" height="65" rx="10" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2.5"/>
+    <polygon points="85,72 105,72 112,108 78,108" fill="#ffffff"/>
+    <!-- Speech Bubble -->
+    <rect x="-115" y="5" width="190" height="54" rx="10" fill="#ffffff" stroke="#059669" stroke-width="2.5"/>
+    <text x="-20" y="28" text-anchor="middle" fill="#065f46" font-family="sans-serif" font-size="11" font-weight="bold">"Weird! I've been eating for</text>
+    <text x="-20" y="48" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="11" font-weight="bold">30 mins and it's still half full!"</text>
+    <!-- Soup Bowl on Table -->
+    <path d="M55,112 L135,112 L122,138 L68,138 Z" fill="#ffffff" stroke="#1e293b" stroke-width="3"/>
+    <ellipse cx="95" cy="114" rx="36" ry="7" fill="#ef4444"/>
+  </g>
+  <!-- Dining Table -->
+  <rect x="110" y="212" width="270" height="16" rx="4" fill="#78350f"/>
+  <line x1="135" y1="228" x2="135" y2="355" stroke="#78350f" stroke-width="10"/>
+  <line x1="355" y1="228" x2="355" y2="355" stroke="#78350f" stroke-width="10"/>
+  <!-- Secret Under-Table Refill Pipe! -->
+  <path d="M245,212 L245,310 L455,310 L455,260" fill="none" stroke="#9ca3af" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M245,212 L245,310 L455,310 L455,260" fill="none" stroke="#ef4444" stroke-width="6" stroke-dasharray="10,6" stroke-linejoin="round"/>
+  <text x="345" y="335" text-anchor="middle" fill="#b91c1c" font-family="sans-serif" font-size="13" font-weight="bold">⬅ Hidden Under-Table Refill Pipe (Auto-Refilling)</text>
+  <!-- Giant Soup Vat & Researcher on the Right -->
+  <g transform="translate(415, 110)">
+    <rect x="10" y="40" width="110" height="135" rx="12" fill="#e5e7eb" stroke="#374151" stroke-width="3"/>
+    <rect x="20" y="65" width="90" height="95" rx="6" fill="#ef4444"/>
+    <text x="65" y="105" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold">TOMATO SOUP</text>
+    <text x="65" y="128" text-anchor="middle" fill="#fef08a" font-family="monospace" font-size="13" font-weight="bold">+73% Intake!</text>
+    <!-- Data Badge -->
+    <rect x="-15" y="-25" width="195" height="52" rx="8" fill="#ffffff" stroke="#065f46" stroke-width="2.5"/>
+    <text x="82" y="-3" text-anchor="middle" fill="#065f46" font-family="sans-serif" font-size="11" font-weight="bold">Lesson: We Eat With Our Eyes</text>
+    <text x="82" y="16" text-anchor="middle" fill="#047857" font-family="sans-serif" font-size="11">Not With Our Stomachs!</text>
+  </g>
+</svg>
